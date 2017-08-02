@@ -39,7 +39,7 @@ run_opts
 In case the developer would like to add any extra options to the `docker run`   
 command (for example, exposing certain ports), these can be added in a file     
 at the top level of the repository containing the extra options (eg:          
-- p 18080:8080)  
+- p 18080:8080). All options must go on the same, first line!  
 
 CHANGELOG
 ---------
