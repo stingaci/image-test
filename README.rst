@@ -12,9 +12,9 @@ The Dockerfile must contain the following three comments:
                                                                                 
 .. code:: bash                                                                  
                                                                                 
-  APP_NAME = app_name                                                         
-  APP_VERSION = v1.0                                                          
-  APP_REVISION = 1.0                                                          
+  # APP_NAME = app_name                                                         
+  # APP_VERSION = v1.0                                                          
+  # APP_REVISION = 1.0                                                          
                                                                                 
 The APP_NAME will eventually map to the private registry/repo in AWS while the  
 APP_VERSION and APP_REVSION will be concatenated to generate the current tag     
