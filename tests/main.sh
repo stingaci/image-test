@@ -1,4 +1,4 @@
 #!/bin/bash 
 
-echo "Yas. All good" 
+echo "All good" 
 exit 0
